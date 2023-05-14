@@ -6,7 +6,13 @@
 
     <groupId>org.example</groupId>
     <artifactId>KafkaLearn</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>com.example</module>
+        <module>services</module>
+        <module>org.example</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
